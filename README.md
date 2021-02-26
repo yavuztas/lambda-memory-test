@@ -32,7 +32,7 @@ We obtained the results by running each test case 10 times and calculating the a
 | --- | --- | --- |
 | 243826.2 KB | 233759.7 KB | 215864.4 KB |
 
-Looking at the metrics, Lambda Expressions takes the lead with almost **~28 MB** less memory consumption than Concrete Classes and **~18 MB** less than Abstract Inner Classes. 
+Looking at the metrics, Lambda Expressions takes the lead with almost **~28 MB** less memory consumption than Concrete Classes and **~18 MB** less than Abstract Inner Classes. See also the detailed metrics over [here](https://github.com/yavuztas/lambda-memory-test/blob/master/java-lambdas-memory-test-report.ods).
 
 As a result, we can say that Lambda Expressions is treated somehow in a more memory-optimized way by the JVM. Hopefully, these results can give us a more clear perception to prefer which structure to use :)     
 
