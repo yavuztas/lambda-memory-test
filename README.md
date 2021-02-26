@@ -5,7 +5,7 @@ Especially in terms of memory consumption, it is interesting for most developers
 concrete or abstract inner classes.
 
 ## Test Cases
-This project contains three test cases to shed some light on the memory consumption of Lambda Expressions in Java 8:
+This project contains 3 test cases to shed some light on the memory consumption of Lambda Expressions in Java 8:
 * [testObjectMemoryConsumption](https://github.com/yavuztas/lambda-memory-test/blob/14872deb9ffca93e4cf801895461142fdd9c0a9c/src/test/java/dev/yavuztas/lambdas/LambdasMemoryTest.java#L48)
 * [testAICMemoryConsumption](https://github.com/yavuztas/lambda-memory-test/blob/14872deb9ffca93e4cf801895461142fdd9c0a9c/src/test/java/dev/yavuztas/lambdas/LambdasMemoryTest.java#L57)
 * [testLambdaMemoryConsumption](https://github.com/yavuztas/lambda-memory-test/blob/14872deb9ffca93e4cf801895461142fdd9c0a9c/src/test/java/dev/yavuztas/lambdas/LambdasMemoryTest.java#L71)
