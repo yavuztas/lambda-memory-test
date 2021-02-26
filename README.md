@@ -6,9 +6,9 @@ concrete or abstract inner classes.
 
 ## Test Cases
 This project contains three test cases to shed some light on the memory consumption of Lambda Expressions in Java 8:
-* testObjectMemoryConsumption
-* testAICMemoryConsumption
-* testLambdaMemoryConsumption
+* [testObjectMemoryConsumption](https://github.com/yavuztas/lambda-memory-test/blob/14872deb9ffca93e4cf801895461142fdd9c0a9c/src/test/java/dev/yavuztas/lambdas/LambdasMemoryTest.java#L48)
+* [testAICMemoryConsumption](https://github.com/yavuztas/lambda-memory-test/blob/14872deb9ffca93e4cf801895461142fdd9c0a9c/src/test/java/dev/yavuztas/lambdas/LambdasMemoryTest.java#L57)
+* [testLambdaMemoryConsumption](https://github.com/yavuztas/lambda-memory-test/blob/14872deb9ffca93e4cf801895461142fdd9c0a9c/src/test/java/dev/yavuztas/lambdas/LambdasMemoryTest.java#L71)
 
 All of them execute the same operation but use different structures as concrete classes, abstract inner classes, and Lambda expression respectively.
 The operation is a one-time pass iteration over a pre-populated ArrayList by using Java Streams' `filter()` function.
